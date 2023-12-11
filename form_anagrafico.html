@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"
+    <title>Prenotazione viaggi</title>
+</head>
+<body>
+    <p> Inserisci i tuoi dati:</p>
+    <form method="post" action=" "> 
+        Nome: <input type="text" name="nome">
+        <br><br>
+        Cognome: <input type="text" name="cognome">
+        <br><br>
+        Destinazione: 
+            <select name="destinazione">
+                <option value="Firenze">Firenze</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Londra">Londra</option>
+                <option value="Sparta">Sparta</option>
+                <option value="Canyon">Canyon</option>
+                <option value="Tokio">Tokio</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Rio de Janeiro">Rio de Janeiro</option>
+            </select>
+            <input type="submit">
+        <br><br>
+        Tipo di viagggio:
+            <input type="radio" value="V" checked="checked" name="vacanza"> Vacanza
+            <input type="radio" value="A" name="vacanza"> Affari
+    </form>
+</body>
