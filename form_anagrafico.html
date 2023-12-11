@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8"
+    <meta charset="utf-8">
     <title>Prenotazione viaggi</title>
 </head>
 <body>
+    <h1>Prenotazione viaggi</h1>
     <p> Inserisci i tuoi dati:</p>
-    <form method="post" action=" "> 
+    <form method="post" action="dettagli_viaggio.php"> 
         Nome: <input type="text" name="nome">
         <br><br>
         Cognome: <input type="text" name="cognome">
@@ -21,10 +22,11 @@
                 <option value="Amsterdam">Amsterdam</option>
                 <option value="Rio de Janeiro">Rio de Janeiro</option>
             </select>
-            <input type="submit">
         <br><br>
         Tipo di viagggio:
-            <input type="radio" value="V" checked="checked" name="vacanza"> Vacanza
-            <input type="radio" value="A" name="vacanza"> Affari
+            <input type="radio" value="V" checked="checked" name="tipo_viaggio"> Vacanza
+            <input type="radio" value="A" name="tipo_viaggio"> Affari
+        <br><br>
+        <input type="submit">
     </form>
 </body>
