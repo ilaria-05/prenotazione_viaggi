@@ -18,13 +18,14 @@
         $_SESSION["destinazione"] = $destinazione;
         $_SESSION["tipo_viaggio"] = $tipo_viaggio;
 
-        if($tipo_viaggio == "affari"){
-            print("Buongiorno $nome $cognome");
-            print("Nome azienda: <input type='text' name='nome_azienda'>");
-            print("Durata viaggio: <input type='text' name='durata'>");
-            print("Budget: <input type='text' name='nome'>";
-        } else($tipo_viaggio == "vacanza"){}
+        if($tipo_viaggio == 'affari'){
+            print("Buongiorno $nome $cognome <br>");
+            echo("Nome azienda: <input type='text' name='nome_azienda'>");
+            echo("Durata viaggio: <input type='text' name='durata'>");
+            echo("Budget: <input type='text' name='nome'>");
+        } else{}
     ?>
     
 </body>
 </html>
+
