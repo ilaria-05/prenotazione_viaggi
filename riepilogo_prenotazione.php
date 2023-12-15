@@ -21,9 +21,9 @@
             $nome_azienda = $_POST["nome_azienda"];
             $durata = $_POST["durata"];
             $budget = $_POST["budget"];
-            $_SESSION["nome_azienda"] = $nome_azienda;
-            $_SESSION["durata"] = $durata;
-            $_SESSION["budget"] = $budget;
+            //$_SESSION["nome_azienda"] = $nome_azienda;
+            //$_SESSION["durata"] = $durata;
+            //$_SESSION["budget"] = $budget;
             print("Buongiorno $nome $cognome <br><br>
             Hai scelto di fare una viaggio di $tipo_viaggio.
             Hai scelto di andare in $destinazione 
@@ -35,9 +35,9 @@
             $numero_persone = $_POST["numero_persone"];
             $tipo_alloggio = $_POST["tipo_alloggio"];
             $attivita = $_POST["attivita"];
-            $_SESSION["numero_persone"] = $numero_persone;
-            $_SESSION["tipo_alloggio"] = $tipo_alloggio;
-            $_SESSION["attivita"] = $attivita;
+            //$_SESSION["numero_persone"] = $numero_persone;
+            //$_SESSION["tipo_alloggio"] = $tipo_alloggio;
+            //$_SESSION["attivita"] = $attivita;
             print("Buongiorno $nome $cognome. <br><br>
             Hai scelto di fare una $tipo_viaggio.
             Hai scelto di andare in $destinazione 
