@@ -24,13 +24,13 @@
             print("Buongiorno $nome $cognome <br><br>");
             echo("Nome azienda: <input type='text' name='nome_azienda'><br><br>");
             echo("Durata viaggio: <input type='number' name='durata'><br><br>");
-            echo("Budget: <input type='number' name='nome'><br><br>");
+            echo("Budget: <input type='number' name='budget'><br><br>");
             echo ("<input type='submit'>");
 
         } else if($tipo_viaggio == 'vacanze'){
 
             echo("Numero persone :<input type='number' name='numero_persone'> <br><br>");
-            echo("Tipo Allogio : <input type='text' name='tipo_allogio'> <br><br>");
+            echo("Tipo Alloggio : <input type='text' name='tipo_alloggio'> <br><br>");
             echo ("Inserisci l'attività prescelta: <br>");
             echo ("<input type='checkbox' name='attivita' value='turismo'>");
             echo ("<label for='attivita'> Turismo </label><br>");

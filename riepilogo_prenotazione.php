@@ -25,7 +25,7 @@
             $_SESSION["durata"] = $durata;
             $_SESSION["budget"] = $budget;
             print("Buongiorno $nome $cognome <br><br>
-            Hai scelto di fare una $tipo_vaggio.
+            Hai scelto di fare una viaggio di $tipo_viaggio.
             Hai scelto di andare in $destinazione 
             il nome dell'azienda è $nome_azienda
             e il viaggio dura $durata giorni 
@@ -39,7 +39,7 @@
             $_SESSION["tipo_alloggio"] = $tipo_alloggio;
             $_SESSION["attivita"] = $attivita;
             print("Buongiorno $nome $cognome. <br><br>
-            Hai scelto di fare una $tipo_vaggio.
+            Hai scelto di fare una $tipo_viaggio.
             Hai scelto di andare in $destinazione 
             e le persone per la vacanza sono $numero_persone, 
             hai deciso di andare in un $tipo_alloggio
